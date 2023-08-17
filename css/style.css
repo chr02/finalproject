@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(236, 231, 231);
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: rgb(143, 101, 101);
+    box-shadow: 0 3px rgb(94, 180, 156);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL:ital,wght@1,300&display=swap');
+#navbar {
+    display: flex;
+    align-items: ;
+    justify-content: center;
+
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font: size 16px;
+    font-weight 200;
+    color: rgb(0, 0, 0);
+    transition: 0, 3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a:active {
+    color: aquamarine;
+}
+#navbar li a:hover::after
+#navbar li a:active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: cornflowerblue;
+    position: absolute;
+    bottom: 4px;
+    left: 50px;
+}
+
+#hero{
+    background-image: url("img/femme-shopping-bag-removebg-preview.png");
+    margin-right: 50px;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+}
+
+#hero h1{
+    color: blueviolet;
+    
+}
+
+#hero button{
+box-shadow:indigo
+color: brown;
+padding: 14px 80px 14px 80px;
+
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+
+#feature .fe-box{
+    width: 188px;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 4px; 
+    margin: 15px;
+
+}
+#feature .fe-box:hover{
+box-shadow: 10px 10px 54px rgb(63, 33, 11);
+}
+#feature .fe-box img{
+    width: 100%;
+    margin: bottom 10px; ;
+}
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height:1;
+    border-radius:4px ;
+    color: black;
+    background-color: blue;
+}
+#feature .fe-box h6:nth-child(1){
+    background-color: rgb(74, 208, 203);
+}
+
+#feature .fe-box h6:nth-child(2){
+    background-color: rgb(74, 208, 203);
+}
+ 
+#feature .fe-box h6:nth-child(3){
+    background-color: rgb(74, 208, 203);
+}
+
+#feature .fe-box h6:nth-child(4){
+    background-color: rgb(74, 208, 203);
+}
+
+#feature .fe-box h6:nth-child(5){
+    background-color: rgb(74, 208, 203);
+}
+
+#feature .fe-box h6:nth-child(6){
+    background-color: rgb(74, 208, 203);
+}
